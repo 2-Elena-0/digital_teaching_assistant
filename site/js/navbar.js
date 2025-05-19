@@ -27,7 +27,7 @@ document.write("<div class=\"col-md-1 d-flex flex-column flex-shrink-0 p-3 text-
   "        <svg class=\"bi pe-none me-2\" width=\"16\" height=\"16\">\n" +
   "          <use xlink:href=\"#table\"></use>\n" +
   "        </svg>\n" +
-  "        Orders\n" +
+  "        Форма\n" +
   "      </a>\n" +
   "    </li>\n" +
   "    <li>\n" +
