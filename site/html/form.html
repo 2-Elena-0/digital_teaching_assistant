@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="../js/add_bootstrap.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/test.js"></script>
+  <title>Участники</title>
+</head>
+<body>
+<script src="../js/Header.js"></script>
+<div class="d-flex flex-nowrap justify-content-md-between">
+  <script src="../js/navbar.js"></script>
+  <div class="container">
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4 w-25" src="../images/img_7.jpg" alt="">
+      <h2>Хотите поучаствовать?</h2>
+      <p class="lead">Мы всегда открыты вашим предложениям! Если вам есть, что сказать нам - не стесняйтесь! А если
+        хотите к нам в команду - мы с вами свяжемся.</p>
+    </div>
+    <form class="needs-validation">
+      <div class="row g-3">
+
+        <div class="col-sm-6 pt-3 mb-2">
+          <label for="firstName" class="form-label">Имя</label>
+          <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+          <div class="invalid-feedback">Введите корректное имя</div>
+        </div>
+
+        <div class="col-sm-6 pt-3 mb-2">
+          <label for="lastName" class="form-label">Фамилия</label>
+          <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+          <div class="invalid-feedback">Введите корректное фамилию</div>
+        </div>
+
+        <div class="col-12 mb-2">
+          <label for="email" class="form-label">Адрес электронной почты</label>
+          <input type="email" class="form-control" id="email" placeholder="pinky@love.com" required>
+          <div class="invalid-feedback">Введите корректную почту</div>
+        </div>
+
+        <hr class="my-3">
+
+        <div class="col-12 mb-2">
+          <label for="proposal" class="form-label">Предложения</label>
+          <textarea class="form-control" id="proposal" rows="3"
+                    placeholder="Введите ваши предложения по улучшению ассистента!" required></textarea>
+        </div>
+
+        <div class="col-12 mb-2">
+          <label for="formFileLg" class="form-label">прикрепите пример, если хотите</label>
+          <input class="form-control form-control-lg" id="formFileLg" type="file">
+        </div>
+
+        <hr class="my-3">
+
+        <div class="col-12 form-check my-4">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+          <label class="form-check-label" for="flexCheckIndeterminate">Хочу вступить в команду!</label>
+        </div>
+
+        <button class="w-100 btn btn-primary btn-lg" type="submit">Отправить</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

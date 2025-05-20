@@ -21,13 +21,13 @@ document.write("<div class=\"col-md-1 d-flex flex-column flex-shrink-0 p-3 text-
   "      </a>\n" +
   "    </li>\n" +
   "    <li>\n" +
-  "      <a href=\"#\" class=\"nav-link text-white\"\n" +
+  "      <a href=\"../html/form.html\" class=\"nav-link text-white\"\n" +
   "         onmouseenter=\"active_from_mouse(this)\"\n" +
   "         onmouseleave=\"inactive_from_mouse(this)\">\n" +
   "        <svg class=\"bi pe-none me-2\" width=\"16\" height=\"16\">\n" +
   "          <use xlink:href=\"#table\"></use>\n" +
   "        </svg>\n" +
-  "        Форма\n" +
+  "        Предложение\n" +
   "      </a>\n" +
   "    </li>\n" +
   "    <li>\n" +
